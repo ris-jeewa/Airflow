@@ -1,0 +1,12 @@
+{"timestamp":"2025-08-20T09:30:10.128613","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-20T09:30:10.131855","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/hello_world.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-20T09:30:10.185598","level":"info","event":"Done. Returned value was: success","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-20T09:30:10.186215","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0198c6cf-ba3b-7374-819d-28a33f859447'), task_id='say_hello_python', dag_id='hello_world_dag', run_id='scheduled__2025-08-20T09:28:51.503733+00:00', try_number=1, map_index=-1, hostname='34ff04e272eb', context_carrier={}, task=<Task(PythonOperator): say_hello_python>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 8, 20, 9, 30, 6, 252995, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=False)","logger":"task"}
+{"timestamp":"2025-08-20T09:30:10.631447Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-20T09:30:10.632514Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-20T09:30:10.633351Z","level":"info","event":"Current task name:say_hello_python","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-20T09:30:10.634345Z","level":"info","event":"Dag name:hello_world_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-20T09:30:10.640097Z","level":"info","event":"Hello from Airflow 3.0!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-20T09:30:10.647529Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-20T09:30:10.648969Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-20T09:30:10.649730Z","level":"info","event":"Task operator:<Task(PythonOperator): say_hello_python>","chan":"stdout","logger":"task"}
